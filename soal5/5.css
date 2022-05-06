@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.contaner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+    height: 470px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    position: fixed;
+    
+
+}
+.contaner div{
+    margin: 23px;
+}
+.contaner div:hover{
+    animation-name: bigger;
+}
+
+.contaner button{
+    text-align: center;
+     font-size: large;
+    width: 200px;
+    height: 50px;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+.contaner button:hover{
+    animation-name: bigger;
+}
+
+@keyframes bigger {
+    /* from  {width:200px ; height:50px; } */
+    to {background-color: rgba(174, 0, 255, 0.891) ; color:white; transform: scale(1,2);}
+    }
+
+   
+
+
+.D-1{
+    padding-top: 16px;
+    padding-left: 53px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(66, 111, 197);
+    position: relative;
+    border: none;
+    color: white;
+
+}
+
+
+.D-2{
+    padding-top: 16px;
+    padding-left: 53px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 121, 108);
+    position: relative;
+    border: none;
+    color: white;
+}
+
+
+.D-3{
+    padding-top: 16px;
+    padding-left: 53px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 119, 79);
+    position: relative;
+    border: none;
+    color: white;
+}
+
+
+.D-4{
+    padding-top: 16px;
+    padding-left: 53px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 64, 67);
+    position: relative;
+    border: none;
+    color: white;
+
+}
+
+
+.D-5{
+    padding-top: 16px;
+    padding-left: 62px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(66, 111, 197);
+    position: relative;
+    border-radius: 50PX;
+    border: none;
+    color: white;
+
+}
+
+
+.D-6{
+    padding-top: 16px;
+    padding-left: 62px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 121, 108);
+    position: relative;
+    border-radius: 50PX;
+    border: none;
+    color: white;
+
+}
+
+
+.D-7{
+    padding-top: 16px;
+    padding-left: 62px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 119, 79);
+    position: relative;
+    border-radius: 50PX;
+    border: none;
+    color: white;
+
+}
+
+
+.D-8{
+    padding-top: 16px;
+    padding-left: 62px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(233, 64, 67);
+    position: relative;
+    border-radius: 50PX;
+    border: none;
+    color: white;
+}
+
+
+.D-9{
+    padding-top: 13px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    border: 3px SOLID rgb(66, 111, 197);
+    color: rgb(66, 111, 197);
+}
+
+
+.D-10{
+    padding-top: 13px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    border: 3px SOLID rgb(0, 121, 108);
+    color: rgb(0, 121, 108);
+}
+
+
+.D-11{
+    padding-top: 13px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    border: 3px SOLID rgb(246, 119, 79);
+    color: rgb(246, 119, 79);
+}
+
+
+.D-12{
+    padding-top: 13px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    border: 3px SOLID rgb(233, 64, 67);
+    color: rgb(233, 64, 67);
+}

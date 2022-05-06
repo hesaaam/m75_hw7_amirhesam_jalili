@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header {
+    display: flex;
+    background-color: rgb(1 1 30 / 89%);
+    height: 8vh;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: white;
+}
+.top-header > div:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    width: 35%;
+    justify-content: space-between;
+}
+.top-header > div:nth-of-type(2){
+    position: relative;
+}
+.top-header .mag{
+    width: 20px;
+    position: absolute;
+    right: 20px;
+}
+.top-header input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #ccc;
+}
+
+.header-btn:hover{
+    cursor: pointer;
+}
+
+
+.container{
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 6rem;
+    align-self: center;
+}
+
+.center-1 {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+.center-arti {
+    flex-direction: column;
+    display: flex;
+    width: 19rem;
+    height: 19rem;
+    box-shadow: 0px 7px 12px 2px rgb(0 0 0 / 42%);
+}
+
+
+
+.box-in-arti:nth-child(1) {
+    padding: 1px;
+    justify-content: start;
+    display: flex;
+    height: 4rem;
+}
+
+.title {
+    padding-top: 0.2rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+   
+}
+.title h6 {
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 4rem;
+    height: 3.5rem;
+}
+
+
+.box-in-arti:nth-child(2) {
+    height: 10rem;
+}
+
+.one {
+    background-image: url(./img/249-2492578_nature-status-and-quotes-for-whatsapp-most-beautiful.jpg);
+
+}
+
+.two {
+    background-size: cover;
+    background-image: url(./img/nice-wallpaper-of-nature-500x375.jpg610f085e882fd.jpg);
+}
+
+.three {
+    background-size: cover;
+    background-image: url(./img/photo-1559080463-5c7eb3a52de1.jpg);
+    opacity: 0.9;
+
+}
+
+
+.box-in-arti:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 22px;
+    height: 6rem;
+}
+.action {
+    margin-top: 10px;
+    height: 2rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    opacity: 0.6;
+
+}
+.action h6 {
+    margin: 0 5px;
+
+}
+
+
+.center-2 {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    font-family: monospace;
+    box-shadow: 0px 7px 12px 2px rgb(0 0 0 / 42%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card  {
+    width: 55rem;
+    padding-right: 24px;
+
+
+}
+
+.paragraph {
+    left: 24px;
+    top: 19px;
+    opacity: 0.4;
+    font-size: 14px;
+    color: black;
+
+}
+
+.submit {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    top: 14px;
+    height: 5rem;
+
+}
+
+.center-2 button {
+    padding: 9px;
+    color: #16ff58;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.9s;
+}
+
+.center-2 button:hover {
+    background-color: #16ff58;
+    color: white;
+}
+
+.center-3 {
+    display: grid;
+    grid-template-columns: 3fr 1.6fr;
+    grid-gap: 20px;
+}
+.center-3 > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0px 7px 12px 2px rgb(0 0 0 / 42%);
+    padding: 20px 10px;
+}
+.center-3 > div > div{
+    display: flex;
+    flex-direction: column;
+}
+.center-3 > div p,button{
+    color: #555;
+}
+
+
+
+.center-3 > div p {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.center-3 > div > div:nth-of-type(2){
+    margin-left: 10px;
+}
+
+.img-left {
+    background-size: cover;
+    background-image: url(./img/Dynamic-wallpaper-930x620.jpg)
+}
+
+.img-right {
+    background-image: url(./img/QRaby0.jpg);
+}
+
+
+
+
+.action button {
+    color: #555;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    border-radius: none;
+    margin: 0 5px;
+    transition: all 0.5s ease;
+
+}
+.action button:hover {
+
+    cursor: pointer; 
+    background-color: #555;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
